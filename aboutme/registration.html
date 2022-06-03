@@ -5,28 +5,88 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
     <title>Registration</title>
+
 </head>
 
 <body>
     <header>
-        <div>
+        <section>
+            <nav>
+                <ul>
+                    <li class="active">
+                        <a href="#">About Me</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                    <li>
+                        <a href="#">Registration</a>
+                    </li>
+                    <li>
+                        <a href="#">Login</a>
+                    </li>
 
-        </div>
+                </ul>
+            </nav>
+        </section>
 
     </header>
     <main>
+        <h2>Sign Up</h2>
+
         <form action="" method="post" id="reg">
 
             <div>
+                <label for="f_name">First Name</label>
+                <input type="text" required>
+            </div>
+            <br>
+            <div>
+                <label for="l_name">Last Name</label>
+                <input type="text" required>
+            </div>
+            <br>
+            <div>
+                <label for="phone">Phone</label>
+                <input type="number" required>
+            </div>
+            <br>
+            <div>
+                <label for="gender">Gender</label>
+                <input type="text" required>
+            </div>
+            <br>
+            <div>
+                <label for="country">Country</label>
+                <input type="text" required>
+            </div>
+            <br>
+            <div>
+                <label for="province">State/Province</label>
+                <input type="text" required>
+            </div>
+            <br>
+            <div>
                 <label for="email">Email</label>
-                <input type="text" id="email">
+                <input type="email" required>
             </div>
             <br>
             <div>
                 <label for="password">Password</label>
-                <input type="text" id="email">
+                <input type="text" minlength="8" required>
             </div>
+            <br>
+            <div>
+                <label for="c_pass">Confirm Password</label>
+                <input type="text" minlength="8" required>
+            </div>
+            <div>
+                <button type="submit">Register</button>
+            </div>
+
 
         </form>
 

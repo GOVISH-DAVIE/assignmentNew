@@ -1,1 +1,90 @@
 <style>
+    * {
+        padding: 0px;
+        margin: 0px;
+        text-decoration: none;
+        box-sizing: border-box;
+    }
+    
+    body {
+        justify-content: right;
+        align-items: right;
+        background: linear-gradient(#01c7fe white);
+    }
+    
+    nav {
+        background: rgb(58, 169, 221);
+        height: 80px;
+        width: 100%;
+    }
+    
+    nav ul {
+        float: right;
+        margin-right: 20px;
+    }
+    
+    nav ul li {
+        display: inline-block;
+        line-height: 60px;
+        margin: 5px;
+    }
+    
+    nav ul li a {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: medium;
+        font: 600;
+        color: white;
+        text-transform: uppercase;
+        padding: 7px;
+        border-radius: 5px;
+    }
+    
+    a.active,
+    a:hover {
+        background: none;
+        transition: 5s;
+        color: black
+    }
+    
+    form {
+        text-align: right;
+    }
+    
+    label {
+        width: 100%;
+        display: inline-block;
+        text-align: right;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-style: normal;
+    }
+    
+    input {
+        width: 40%;
+        padding: 16px 8px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid rgb(58, 169, 221);
+        box-sizing: border-box;
+        border-radius: 10px;
+    }
+    
+    textarea {
+        width: 40%;
+        padding: 16px 8px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid rgb(58, 169, 221);
+        box-sizing: border-box;
+        border-radius: 10px;
+    }
+    
+    button {
+        background-color: rgb(58, 169, 221);
+        color: white;
+        padding: 14px 0;
+        margin: 10px 0;
+        border: none;
+        cursor: grabbing;
+        width: 30%
+    }
+</style>
